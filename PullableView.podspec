@@ -9,13 +9,13 @@ Pod::Spec.new do |s|
 
   s.license      = 'MIT (example)'
 
-  s.authors      = { "crocodella" => "team@crocodella.com.br", "Neli Dimitrova" => "n.dimitrova@viscomp.bg" }
+  s.authors      = { "Fabio Rodella" => "fabio@crocodella.com.br", "Neli Dimitrova" => "n.dimitrova@viscomp.bg" }
   
   s.platform     = :ios, '5.0'
 
   s.source       = { :git => "https://github.com/nelidimitrova/PullableView.git", :tag => "0.0.1" }
 
-  s.source_files = 'PullableView/*.{h,m}'
+  s.source_files = 'Library/*.{h,m}'
 
   s.requires_arc = true
  
